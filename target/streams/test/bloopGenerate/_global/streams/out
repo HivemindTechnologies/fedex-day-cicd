@@ -1,0 +1,4 @@
+[debug] [webservice-test] Classpath dependencies List()
+[debug] [webservice-test] Dependencies from configurations List(webservice)
+[debug] Bloop wrote the configuration of project 'webservice-test' to '/Users/tianshuli/AWS/webservice/.bloop/webservice-test.json'
+[success] Generated .bloop/webservice-test.json
