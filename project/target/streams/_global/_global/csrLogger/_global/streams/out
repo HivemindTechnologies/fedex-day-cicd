@@ -1,1 +1,10 @@
-[debug] downloaded https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.11/sbt-bloop-1.4.11-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/github/sbt/sbt-native-packager_2.12_1.0/1.9.6/sbt-native-packager-1.9.6.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/ant/ant/1.10.9/ant-1.10.9.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.10.9/ant-parent-1.10.9.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.10.9/ant-launcher-1.10.9.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.10.9/ant-launcher-1.10.9.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/github/sbt/sbt-native-packager_2.12_1.0/1.9.6/sbt-native-packager-1.9.6.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/ant/ant/1.10.9/ant-1.10.9.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.10.9/ant-launcher-1.10.9-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/github/sbt/sbt-native-packager_2.12_1.0/1.9.6/sbt-native-packager-1.9.6-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/ant/ant/1.10.9/ant-1.10.9-sources.jar

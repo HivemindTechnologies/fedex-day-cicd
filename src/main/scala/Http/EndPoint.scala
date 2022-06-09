@@ -65,18 +65,19 @@ object EndPoint{
 
 
   def authLayerWM[R](
-    pz: RIO[R, EndPoint[HRequest]],
+    pz: EndPoint[HRequest],
     port: Int
   ): ZLayer[Any with Blocking with Clock with R, Throwable, Has[Server]] = ZLayer.fromManaged {
-    val zm = for {
-      p <- pz
-      
-      h = Server
-          .builder(new InetSocketAddress("127.0.0.1", port))
-          .handleAll(handler(p))
-          .serve
-                
-    } yield h
+    val zm = for{
+      zm <- Server
+          .builder(new InetSocketAddress("0.0.0.0", port))
+          .handleAll(handler(pz))
+          .serve.useForever.orDie
+    } yield zm
+    // val zm = Server
+    //       .builder(new InetSocketAddress("127.0.0.1", port))
+    //       .handleAll(handler(pz))
+    //       .serve.useForever.orDie
     ZManaged.unwrap(zm)
   }
   def findOrNot(p: EndPoint[HRequest]) =

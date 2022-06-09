@@ -10,6 +10,7 @@ inThisBuild(Seq(
   scalaVersion := "2.13.4",
   testFrameworks += new TestFramework("zio.test.sbt.ZTestFramework"),
   addCompilerPlugin("org.typelevel" %% "kind-projector" % "0.11.2" cross CrossVersion.full)
+  
 ))
 // That is, to create a valid sbt build, all you've got to do is define the
 // version of Scala you'd like your project to use.
@@ -28,7 +29,7 @@ inThisBuild(Seq(
 // place like Sonatype.
 name := "hello-world"
 organization := "ch.epfl.scala"
-
+enablePlugins(JavaAppPackaging, DockerPlugin)
 // Want to use a published library in your project?
 // You can define other libraries as dependencies in your build like this:
 lazy val `zioVersion` = "1.0.4"
@@ -42,10 +43,6 @@ lazy val scala_module = "org.scala-lang.modules" %% "scala-parser-combinators" %
 val uzhttp = "org.polynote" %% "uzhttp" % "0.2.6"
 val cats = "org.typelevel" %% "cats-core" % "2.5.0"
 val json4s   = "org.json4s" %% "json4s-jackson" % "3.6.9"
-val `spark-core` = "org.apache.spark" %% "spark-core" % "3.2.0"
-val `spark-sql` = "org.apache.spark" %% "spark-sql" % "3.2.0" % "provided"
-val `spark-stream` = "org.apache.spark" %% "spark-streaming" % "3.2.0" % "provided"
-//val `spark-zio` = "io.univalence" %% "zio-spark" % "0.0.1-+"
 // val sttpVersion = "3.3.15"
 //val sttp = "com.softwaremill.sttp.client3" %% "core" % "3.3.15"
 //val sttpzio  = "com.softwaremill.sttp.client3" %% "async-http-client-backend-zio" % "3.3.15"
@@ -53,6 +50,12 @@ val sttpVersion = "2.2.9"
 val sttp = "com.softwaremill.sttp.client" %% "core" % sttpVersion
 val sttpzio  = "com.softwaremill.sttp.client" %% "async-http-client-backend-zio" % sttpVersion
 val sttpziostreams  = "com.softwaremill.sttp.client" %% "async-http-client-backend-zio-streams" % sttpVersion
+
+val postgres = "org.postgresql" % "postgresql" % "42.2.14"
+val postgisJts = "net.postgis" % "postgis-jdbc-jtsparser" % "2.5.0"
+val slick  = "com.typesafe.slick" %% "slick" % "3.3.3"
+val slf4j = "org.slf4j" % "slf4j-nop" % "1.6.4"
+
 
 libraryDependencies ++= Seq(
     zio,
@@ -65,14 +68,13 @@ libraryDependencies ++= Seq(
     uzhttp,
     cats,
     json4s,
-    `spark-core`,
-    `spark-sql`,
     sttp,
     sttpzio,
-  `spark-stream`,
-//  `spark-zio`
-    // sttpziostreams,
-    // sttpjson4s,
+    postgres,
+    postgisJts,
+    slick,
+    slf4j
+
 )
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,

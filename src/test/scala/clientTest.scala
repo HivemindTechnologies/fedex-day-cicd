@@ -4,37 +4,32 @@ import zio.test._
 import TestAspect._
 import zio.UIO
 import zio.ZIO
-import testDataframe.requestString
 import Http.HttpClient._
 import uzhttp.Request
 import zio.magic.ZSpecProvideMagicOps
 import Http.EndPoint._
-import org.apache.spark.sql.SparkSession
 import sttp.client.asynchttpclient.zio.AsyncHttpClientZioBackend
+import DB.ScalaJdbcConnectSelect._
 
 object clientTest extends DefaultRunnableSpec  {
   override def spec = sequential(suite("test client/server")(
     serverIsUp,
-     testPost,
-//    testGet,
+    //  testPost,
+  //  testGet,
+    // testDB,
   ).injectCustomShared(
-     HttpService.serverLayer(None, requestString, spark),
+     HttpService.serverLayer,
     HttpClient.clientLayer,
     AsyncHttpClientZioBackend.layer()).mapError{ e =>
     println(s"initialisation error $e");
     TestFailure.fail(e)
   })
 
-  val spark: SparkSession = SparkSession.builder()
-    .master("local[3]")
-    .appName("Webservice")
-    .getOrCreate()
-
 
 
   def testPost: ZSpec[HttpClient, Throwable] = testM("test post"){
     for{
-        _ <- ZIO.accessM[HttpClient](_.get.postIn("product", requestString))
+        _ <- ZIO.accessM[HttpClient](_.get.postIn("product", "product"))
         p <- ZIO.accessM[HttpClient](_.get.get("product"))
         _ <- UIO(println(p))
     } yield assertCompletes
@@ -52,5 +47,10 @@ object clientTest extends DefaultRunnableSpec  {
       _ <- Utils.serverUp
       _ <- UIO(println(s"server is up"))
     } yield assertCompletes
+  }
+
+  val testDB = test("db test"){
+    simpleTest
+    assertCompletes
   }
 }

@@ -19,12 +19,18 @@
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.5/sbt-1.5.5.jar",
             "/Users/tianshuli/.sbt/boot/scala-2.12.14/lib/scala-library.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.11/sbt-bloop-1.4.11.jar",
+            "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-native-packager_2.12_1.0/1.9.6/sbt-native-packager-1.9.6.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.5.5/main_2.12-1.5.5.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.5.1/io_2.12-1.5.1.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+            "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar",
+            "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/ant/ant/1.10.9/ant-1.10.9.jar",
+            "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/eldis/tool-launcher/0.2.2/tool-launcher-0.2.2.jar",
+            "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar",
+            "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.5.5/logic_2.12-1.5.5.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.5.5/actions_2.12-1.5.5.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.5.5/main-settings_2.12-1.5.5.jar",
@@ -34,7 +40,6 @@
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.5.5/scripted-plugin_2.12-1.5.5.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.5.5/zinc-lm-integration_2.12-1.5.5.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.5.5/util-logging_2.12-1.5.5.jar",
-            "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.3.3/launcher-interface-1.3.3.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.5/caffeine-2.8.5.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.0.8/lm-coursier-shaded_2.12-2.0.8.jar",
@@ -46,6 +51,7 @@
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.5.7/compiler-interface-1.5.7.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.5.7/zinc-compile_2.12-1.5.7.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.6/file-tree-views-2.1.6.jar",
+            "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.10.9/ant-launcher-1.10.9.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.5.5/util-relation_2.12-1.5.5.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.5.5/completion_2.12-1.5.5.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.5.5/task-system_2.12-1.5.5.jar",
@@ -92,7 +98,6 @@
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.5.7/zinc-persist_2.12-1.5.7.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.3.1/ipcsocket-1.3.1.jar",
-            "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.jar",
             "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.5.0/gigahorse-core_2.12-0.5.0.jar",
@@ -148,8 +153,8 @@
                 "import _root_.sbt._",
                 "import _root_.sbt.Keys._",
                 "import _root_.sbt.nio.Keys._",
-                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._",
-                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin"
+                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.com.typesafe.sbt.SbtNativePackager.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.JavaAppPackaging.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.jlink.JlinkPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemdPlugin.autoImport._, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin.autoImport._, _root_.com.typesafe.sbt.packager.debian.DebianPlugin.autoImport._, _root_.com.typesafe.sbt.packager.docker.DockerPlugin.autoImport._, _root_.com.typesafe.sbt.packager.graalvmnativeimage.GraalVMNativeImagePlugin.autoImport._, _root_.com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin.autoImport._, _root_.com.typesafe.sbt.packager.linux.LinuxPlugin.autoImport._, _root_.com.typesafe.sbt.packager.rpm.RpmPlugin.autoImport._, _root_.com.typesafe.sbt.packager.universal.UniversalPlugin.autoImport._, _root_.com.typesafe.sbt.packager.windows.WindowsPlugin.autoImport._",
+                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.com.typesafe.sbt.SbtNativePackager, _root_.com.typesafe.sbt.packager.archetypes.JavaAppPackaging, _root_.com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, _root_.com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin, _root_.com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin, _root_.com.typesafe.sbt.packager.archetypes.jlink.JlinkPlugin, _root_.com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin, _root_.com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin, _root_.com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemVPlugin, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemdPlugin, _root_.com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin, _root_.com.typesafe.sbt.packager.archetypes.systemloader.UpstartPlugin, _root_.com.typesafe.sbt.packager.debian.DebianDeployPlugin, _root_.com.typesafe.sbt.packager.debian.DebianPlugin, _root_.com.typesafe.sbt.packager.debian.JDebPackaging, _root_.com.typesafe.sbt.packager.docker.DockerPlugin, _root_.com.typesafe.sbt.packager.docker.DockerSpotifyClientPlugin, _root_.com.typesafe.sbt.packager.graalvmnativeimage.GraalVMNativeImagePlugin, _root_.com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin, _root_.com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin, _root_.com.typesafe.sbt.packager.linux.LinuxPlugin, _root_.com.typesafe.sbt.packager.rpm.RpmDeployPlugin, _root_.com.typesafe.sbt.packager.rpm.RpmPlugin, _root_.com.typesafe.sbt.packager.universal.UniversalDeployPlugin, _root_.com.typesafe.sbt.packager.universal.UniversalPlugin, _root_.com.typesafe.sbt.packager.windows.WindowsDeployPlugin, _root_.com.typesafe.sbt.packager.windows.WindowsPlugin"
             ]
         },
         "test": {
@@ -199,7 +204,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home",
+                "home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre",
                 "options": [
                     "-Duser.dir=/Users/tianshuli/AWS/webservice/project"
                 ]
@@ -224,6 +229,23 @@
                             "name": "sbt-bloop",
                             "classifier": "sources",
                             "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.11/sbt-bloop-1.4.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.sbt",
+                    "name": "sbt-native-packager",
+                    "version": "1.9.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-native-packager",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-native-packager_2.12_1.0/1.9.6/sbt-native-packager-1.9.6.jar"
+                        },
+                        {
+                            "name": "sbt-native-packager",
+                            "classifier": "sources",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-native-packager_2.12_1.0/1.9.6/sbt-native-packager-1.9.6-sources.jar"
                         }
                     ]
                 },
@@ -262,19 +284,104 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-sbt",
-                    "name": "sbt",
-                    "version": "1.5.5",
+                    "organization": "org.apache.commons",
+                    "name": "commons-compress",
+                    "version": "1.20",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "sbt",
-                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.5/sbt-1.5.5.jar"
+                            "name": "commons-compress",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar"
                         },
                         {
-                            "name": "sbt",
+                            "name": "commons-compress",
                             "classifier": "sources",
-                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.5/sbt-1.5.5-sources.jar"
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.ant",
+                    "name": "ant",
+                    "version": "1.10.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ant",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/ant/ant/1.10.9/ant-1.10.9.jar"
+                        },
+                        {
+                            "name": "ant",
+                            "classifier": "sources",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/ant/ant/1.10.9/ant-1.10.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.eldis",
+                    "name": "tool-launcher",
+                    "version": "0.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "tool-launcher",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/eldis/tool-launcher/0.2.2/tool-launcher-0.2.2.jar"
+                        },
+                        {
+                            "name": "tool-launcher",
+                            "classifier": "sources",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/eldis/tool-launcher/0.2.2/tool-launcher-0.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.12",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "1.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.ant",
+                    "name": "ant-launcher",
+                    "version": "1.10.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ant-launcher",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.10.9/ant-launcher-1.10.9.jar"
+                        },
+                        {
+                            "name": "ant-launcher",
+                            "classifier": "sources",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.10.9/ant-launcher-1.10.9-sources.jar"
                         }
                     ]
                 },
@@ -292,6 +399,23 @@
                             "name": "scala-library",
                             "classifier": "sources",
                             "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "sbt",
+                    "version": "1.5.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.5/sbt-1.5.5.jar"
+                        },
+                        {
+                            "name": "sbt",
+                            "classifier": "sources",
+                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.5/sbt-1.5.5-sources.jar"
                         }
                     ]
                 },
@@ -513,23 +637,6 @@
                             "name": "util-logging_2.12",
                             "classifier": "sources",
                             "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.5.5/util-logging_2.12-1.5.5-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-xml_2.12",
-                    "version": "1.3.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-xml_2.12",
-                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar"
-                        },
-                        {
-                            "name": "scala-xml_2.12",
-                            "classifier": "sources",
-                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0-sources.jar"
                         }
                     ]
                 },
@@ -1499,23 +1606,6 @@
                             "name": "ipcsocket",
                             "classifier": "sources",
                             "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.3.1/ipcsocket-1.3.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-parser-combinators_2.12",
-                    "version": "1.1.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-parser-combinators_2.12",
-                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
-                        },
-                        {
-                            "name": "scala-parser-combinators_2.12",
-                            "classifier": "sources",
-                            "path": "/Users/tianshuli/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar"
                         }
                     ]
                 },

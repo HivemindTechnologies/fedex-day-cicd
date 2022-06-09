@@ -36,7 +36,7 @@ object HttpClient{
       override def decode(body: String): Task[String] =
         // println(s"body is $body")
         ZIO
-          .effect(JsonMethods.pretty(JsonMethods.parse(body)))
+          .effect(body)
           .tapError(e => UIO(println(s"error parsing body $body\n${e.toString}")))
     }
 
@@ -44,7 +44,7 @@ object HttpClient{
       override def mediaType: String = "application/json"
 
       override def encode(t: String): String = {
-        JsonMethods.pretty(JsonMethods.parse(t))
+        t
       }
     }
 
