@@ -1,15 +1,12 @@
 package Http
 
-import zio.{Has, Ref, Task, ZIO, ZLayer, clock}
-import uzhttp.Request
-import EndPoint._
-import org.json4s.JValue
-import uzhttp.Response
+import DB.ScalaJdbcConnectSelect._
+import Http.EndPoint._
+import uzhttp.{Request, Response}
 import uzhttp.server.Server
 import zio.blocking.Blocking
 import zio.clock.Clock
-import zio.duration.durationInt
-import DB.ScalaJdbcConnectSelect._
+import zio.{Has, Task, ZIO, ZLayer}
 
 object HttpService{
   def service = {

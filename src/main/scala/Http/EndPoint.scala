@@ -1,31 +1,18 @@
 package Http
 
 import cats.Eq
-import zio.Has
-import zio.ZIO
-import uzhttp.Request
-import uzhttp.HTTPError
-import uzhttp.Response
-import zio.URIO
-import zio.IO
-import cats.data.NonEmptyList
+import cats.implicits._
 import org.json4s.JsonAST
-import uzhttp.header.Headers
 import org.json4s.jackson.JsonMethods
-import zio.Task
-import zio.RIO
-import zio.stream.ZTransducer
-import zio.UIO
-import uzhttp.Status
-import zio.ZLayer
+import uzhttp.Request.Method
+import uzhttp.{HTTPError, Request, Response, Status}
+import uzhttp.header.Headers
 import uzhttp.server.Server
-
-import java.net.InetSocketAddress
-import zio.ZManaged
+import zio.{Has, IO, URIO, ZIO, ZLayer, ZManaged}
 import zio.blocking.Blocking
 import zio.clock.Clock
-import cats.implicits._
-import uzhttp.Request.Method
+
+import java.net.InetSocketAddress
 
 
 
@@ -74,10 +61,6 @@ object EndPoint{
           .handleAll(handler(pz))
           .serve.useForever.orDie
     } yield zm
-    // val zm = Server
-    //       .builder(new InetSocketAddress("127.0.0.1", port))
-    //       .handleAll(handler(pz))
-    //       .serve.useForever.orDie
     ZManaged.unwrap(zm)
   }
   def findOrNot(p: EndPoint[HRequest]) =

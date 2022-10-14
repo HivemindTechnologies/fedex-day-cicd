@@ -1,10 +1,8 @@
 package Http
 
-import Http.HttpClient.HttpClient
 import sttp.client.asynchttpclient.zio.AsyncHttpClientZioBackend
-import zio.duration.durationInt
 import zio.magic.ZioProvideMagicOps
-import zio.{App, ExitCode, UIO, ZIO, clock}
+import zio.{App, ExitCode, UIO}
 
 object ServerUp extends App {
   override def run(args: List[String]) = {

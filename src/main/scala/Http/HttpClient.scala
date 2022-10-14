@@ -1,19 +1,12 @@
 package Http
 
-import zio.Task
-import zio.stream._
-import sttp.model.Uri
-import sttp.model.Uri._
-import zio.IO
-import zio.ZIO
-import sttp.model.StatusCode
-import zio.ZLayer
-import zio.Has
-import org.json4s.jackson.JsonMethods
-import sttp.client.{Request, Response, SttpBackend, asString, basicRequest}
 import sttp.client.asynchttpclient.WebSocketHandler
 import sttp.client.asynchttpclient.zio.SttpClient
-import zio.UIO
+import sttp.client.{Response, SttpBackend, asString, basicRequest}
+import sttp.model.{StatusCode, Uri}
+import sttp.model.Uri._
+import zio.{Has, IO, Task, UIO, ZIO, ZLayer}
+import zio.stream._
 
 object HttpClient{
 
