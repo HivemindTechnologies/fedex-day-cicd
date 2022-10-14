@@ -1,5 +1,8 @@
 test-data/
-
+.bloop
+.idea
+.metals
+.vscode
 .terraform
 
 .DS_Store
